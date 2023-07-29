@@ -1,0 +1,86 @@
+#img-content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#adheader
+{
+    width: 85%;
+    border: 5px solid rgb(0, 21, 255);
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px black;
+}
+
+#about-title
+{
+    text-shadow: 0 0 20px white;
+    text-align: center;
+    margin: 40px;
+}
+
+#features-grid
+{
+    margin-top : 30px;
+    display : grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+    
+}
+
+#features-title
+{
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#features-item
+{
+    padding : 30px;
+    border: 5px solid rgb(24, 24, 198);
+    background-color: black;
+    text-shadow: 0 0 20px white;
+    border-radius: 15px;
+    font-size: 18px;
+    margin : 40px;
+    box-shadow: 10px 10px 20px black;
+}
+
+#create
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#create-item
+{
+    padding : 30px;
+    border: 5px solid rgb(24, 24, 198);
+    background-color: black;
+    text-shadow: 0 0 20px white;
+    border-radius: 15px;
+    font-size: 18px;
+    margin : 40px;
+    box-shadow: 10px 10px 20px black;
+}
+
+#btn-download
+{
+    padding : 30px;
+    border: 5px solid rgb(24, 24, 198);
+    background-color: black;
+    text-shadow: 0 0 20px white;
+    border-radius: 15px;
+    font-size: 18px;
+    margin : 40px;
+    box-shadow: 10px 10px 20px black;
+    transition: 0.4s;
+    &:hover
+    {
+        color : black;
+        text-shadow: 0 0 20px black;
+        background-color: white;
+    }
+}

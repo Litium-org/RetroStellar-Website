@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+@import 'Home.css';
+@import 'Banner.css';
+
+*
+{
+    margin : 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body
+{
+    background-color: black;
+    color : white;
+    background: linear-gradient(0deg, rgba(0,9,98,1) 0%, rgba(0,0,0,1) 100%);
+}

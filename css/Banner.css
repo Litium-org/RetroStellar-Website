@@ -1,0 +1,10 @@
+#annouce-banner
+{
+    color : white;
+    text-shadow : 0 0 20px white;
+    background-color: rgb(28, 28, 255);
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
